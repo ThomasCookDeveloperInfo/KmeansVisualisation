@@ -20,12 +20,6 @@ class Program : Application() {
         primaryStage.title = TITLE
         primaryStage.scene = Scene(root, WIDTH, HEIGHT)
         primaryStage.show()
-
-        object: AnimationTimer() {
-            override fun handle(now: Long) {
-
-            }
-        }
     }
 
     object Entry{

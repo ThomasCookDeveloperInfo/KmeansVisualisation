@@ -5,7 +5,7 @@ import GenericDataStructures.BinaryTreeNode
 import GenericDataStructures.Point
 import java.util.*
 
-class Fortunes(private val dataPoints: Collection<Point>, private val width: Double, private val step: Double) {
+class Fortunes(private val dataPoints: Collection<Point>) {
 
     private open class Event(open val origin: Point)
     private class CircleEvent(override val origin: Point) : Event(origin)

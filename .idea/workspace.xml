@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5d9eee6-8991-45e5-9afc-0c53e660478a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithms/Fortunes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/Kmeans.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/KmeansController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/KmeansController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/Main.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,15 +26,32 @@
           <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
-      <file leaf-file-name="KmeansController.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KmeansController.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GUI/KmeansController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="111" column="29" selection-start-line="111" selection-start-column="29" selection-end-line="111" selection-end-column="29" />
-              <caret line="112" column="29" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
+            <state relative-caret-position="-323">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               <folding>
-                <element signature="e#13#227#0" expanded="true" />
+                <element signature="e#13#252#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Euclidian.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GenericDataStructures/Euclidian.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTree.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GenericDataStructures/BinaryTree.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1156">
+              <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -44,10 +59,10 @@
       <file leaf-file-name="Fortunes.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithms/Fortunes.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="e#20#55#0" expanded="true" />
+                <element signature="e#20#157#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,10 +71,22 @@
       <file leaf-file-name="Kmeans.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithms/Kmeans.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="-144">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
                 <element signature="e#20#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GUI/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <folding>
+                <element signature="e#13#198#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,36 +125,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/jdk.scripting.nashorn/jdk/nashorn/api/tree/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Standard.kt" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/kotlin/util/Standard.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1768">
-              <caret line="107" column="24" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GUI/Main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#13#198#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -153,9 +150,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/GUI/kmeans.fxml" />
+        <option value="$PROJECT_DIR$/GenericDataStructures/BinaryTree.kt" />
+        <option value="$PROJECT_DIR$/GenericDataStructures/Euclidian.kt" />
+        <option value="$PROJECT_DIR$/GUI/KmeansController.kt" />
         <option value="$PROJECT_DIR$/Algorithms/Kmeans.kt" />
         <option value="$PROJECT_DIR$/Algorithms/Fortunes.kt" />
-        <option value="$PROJECT_DIR$/GUI/KmeansController.kt" />
+        <option value="$PROJECT_DIR$/GUI/Main.kt" />
       </list>
     </option>
   </component>
@@ -182,6 +182,16 @@
               <item name="KmeansVisualisation" type="b2602c69:ProjectViewProjectNode" />
               <item name="KmeansVisualisation" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KmeansVisualisation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KmeansVisualisation" type="462c0819:PsiDirectoryNode" />
+              <item name="GenericDataStructures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KmeansVisualisation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KmeansVisualisation" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -411,7 +421,7 @@
         <state relative-caret-position="3298">
           <caret line="260" lean-forward="true" selection-start-line="260" selection-end-line="260" />
           <folding>
-            <element signature="e#13#227#0" expanded="true" />
+            <element signature="e#13#252#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -460,7 +470,7 @@
         <state relative-caret-position="1377">
           <caret line="81" column="29" lean-forward="true" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
           <folding>
-            <element signature="e#13#227#0" expanded="true" />
+            <element signature="e#13#252#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -495,17 +505,7 @@
         <state relative-caret-position="799">
           <caret line="47" column="49" lean-forward="true" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
           <folding>
-            <element signature="e#13#227#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#13#198#0" expanded="true" />
+            <element signature="e#13#252#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -559,10 +559,41 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/BinarySearchTree.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/KmeansController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#13#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenericDataStructures/Euclidian.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenericDataStructures/BinaryTree.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/Kmeans.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="-144">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
             <element signature="e#20#90#0" expanded="true" />
           </folding>
@@ -571,21 +602,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/Fortunes.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#20#55#0" expanded="true" />
+            <element signature="e#20#157#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/KmeansController.kt">
+    <entry file="file://$PROJECT_DIR$/GUI/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="111" column="29" selection-start-line="111" selection-start-column="29" selection-end-line="111" selection-end-column="29" />
-          <caret line="112" column="29" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
+        <state relative-caret-position="357">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
-            <element signature="e#13#227#0" expanded="true" />
+            <element signature="e#13#198#0" expanded="true" />
           </folding>
         </state>
       </provider>

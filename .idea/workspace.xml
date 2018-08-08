@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5d9eee6-8991-45e5-9afc-0c53e660478a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GUI/KmeansController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/KmeansController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/kmeans.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/kmeans.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KmeansVisualisation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KmeansVisualisation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KmeansVisualisation/GUI/Algorithms$kmeans.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KmeansVisualisation/GUI/Algorithms.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KmeansVisualisation/GUI/Cluster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KmeansVisualisation/GUI/KmeansController$initialize$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KmeansVisualisation/GUI/KmeansController$initialize$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KmeansVisualisation/GUI/KmeansController$initialize$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KmeansVisualisation/GUI/KmeansController$initialize$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KmeansVisualisation/GUI/KmeansController$initialize$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KmeansVisualisation/GUI/KmeansController$initialize$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KmeansVisualisation/GUI/KmeansController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KmeansVisualisation/GUI/KmeansController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KmeansVisualisation/GUI/Randomness.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KmeansVisualisation/GUI/Vector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KmeansVisualisation/GUI/kmeans.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KmeansVisualisation/GUI/kmeans.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,11 +29,20 @@
       <file leaf-file-name="KmeansController.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GUI/KmeansController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-212">
-              <caret line="244" column="61" lean-forward="true" selection-start-line="244" selection-start-column="61" selection-end-line="245" selection-end-column="20" />
+            <state relative-caret-position="502">
+              <caret line="268" column="125" lean-forward="true" selection-start-line="268" selection-start-column="96" selection-end-line="268" selection-end-column="125" />
               <folding>
                 <element signature="e#13#227#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Maps.kt" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Maps.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -110,6 +106,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="info@thomascookdeveloperinfo.co.ukh" />
         <option value="info@thomascookdeveloperinfo.co.uk" />
         <option value="thomascookdeveloperinfo" />
         <option value="thomascookdeveloperinfop" />
@@ -250,6 +247,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -311,7 +309,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Workin on binary search tree data structures and type system (i.e. trying to be too fancy) for the fortunes algorithm." />
+    <option name="LAST_COMMIT_MESSAGE" value="Workin on binary search tree data structures and type system (i.e. trying to be too fancy) for the fortunes algorithm." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -517,10 +516,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Maps.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GUI/KmeansController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-212">
-          <caret line="244" column="61" lean-forward="true" selection-start-line="244" selection-start-column="61" selection-end-line="245" selection-end-column="20" />
+        <state relative-caret-position="502">
+          <caret line="268" column="125" lean-forward="true" selection-start-line="268" selection-start-column="96" selection-end-line="268" selection-end-column="125" />
           <folding>
             <element signature="e#13#227#0" expanded="true" />
           </folding>

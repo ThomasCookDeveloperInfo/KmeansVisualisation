@@ -12,9 +12,19 @@ import java.util.*
 class KmeansController(@FXML private var mainPane: VBox? = null,
                        @FXML private var canvas: Canvas? = null,
                        @FXML private var resetButton: Button? = null) {
+
     // Map each possible cluster index to a unique color
-    private val clusterIndexColorMap = mapOf<Int, Color>(Pair(0, Color.BLACK), Pair(1, Color.GREEN), Pair(2, Color.RED),
-            Pair(3, Color.CYAN), Pair(4, Color.FUCHSIA), Pair(5, Color.BROWN), Pair(6, Color.DARKGREEN), Pair(7, Color.DARKMAGENTA), Pair(8, Color.GOLD), Pair(9, Color.HOTPINK))
+    private val clusterIndexColorMap = mapOf(
+            Pair(0, Color.BLACK),
+            Pair(1, Color.GREEN),
+            Pair(2, Color.RED),
+            Pair(3, Color.CYAN),
+            Pair(4, Color.FUCHSIA),
+            Pair(5, Color.BROWN),
+            Pair(6, Color.DARKGREEN),
+            Pair(7, Color.DARKMAGENTA),
+            Pair(8, Color.GOLD),
+            Pair(9, Color.HOTPINK))
 
     // Kmeans
     private var kmeans = Kmeans()
@@ -253,7 +263,22 @@ class Fortunes(private val dataPoints: Collection<Point>, private val width: Dou
                                         var parent: FortuneBinaryTreeNode) : BinaryTreeNode<BeachLineEntity>(data, left, right)
 
     private open class FortuneBinaryTree(override val root: BinaryTreeNode<BeachLineEntity>) : BinaryTree<BeachLineEntity>(root) {
-        override fun
+        /**
+         * Recursively insert the [data] which is a [BeachLineEntity] into the tree.
+         * This is achieved by applying [dataPointParabolicIntercept] to search the tree for the [Parabola] leaf.
+         * Once found, the leaf is replaced with a [FortuneBinaryTree] sub-tree where the root is the [Edge] between the two 
+         */
+        override fun insert(data: BeachLineEntity, current: BinaryTreeNode<BeachLineEntity>?): BinaryTreeNode<BeachLineEntity> {
+
+        }
+
+        override fun delete(data: BeachLineEntity, current: BinaryTreeNode<BeachLineEntity>?): BinaryTreeNode<BeachLineEntity>? {
+
+        }
+
+        override fun find(data: BeachLineEntity, current: BinaryTreeNode<BeachLineEntity>?): BinaryTreeNode<BeachLineEntity>? {
+
+        }
     }
 
     // Event queue
@@ -271,7 +296,7 @@ class Fortunes(private val dataPoints: Collection<Point>, private val width: Dou
                     beachline?.let {
 
                     } ?: {
-                        beachline = BinaryTree(BinaryTreeNode<BeachLineEntity>(Parabola(currentEvent.origin)))
+                        beachline = FortuneBinaryTree(FortuneBinaryTreeNode(Parabola(currentEvent.origin)))
                     }.invoke()
                 }
                 else -> {
@@ -282,14 +307,14 @@ class Fortunes(private val dataPoints: Collection<Point>, private val width: Dou
     }
 
     private fun processDataPointEvent(event: DataPointEvent) {
-        val interceptedParabola = dataPointParabolicIntercept(event)
-        if (arc has generated circle event) {
-            remove circle event from queue
-        }
-        split appart currentArc into arcLeft and arcRight
-        insert new arc into wedge
-        checkForCircleEvent(arcLeft)
-        checkForCircleEvent(arcRight)
+        // val interceptedParabola = dataPointParabolicIntercept(event)
+        // if (arc has generated circle event) {
+        //     remove circle event from queue
+        // }
+        // split appart currentArc into arcLeft and arcRight
+        // insert new arc into wedge
+        // checkForCircleEvent(arcLeft)
+        // checkForCircleEvent(arcRight)
     }
 
     private fun dataPointParabolicIntercept(dataPoint: DataPointEvent) : Parabola {

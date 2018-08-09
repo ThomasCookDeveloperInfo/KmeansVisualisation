@@ -1,4 +1,4 @@
-package GenericDataStructures
+package genericdatastructures
 
 open class BinaryTreeNode<T>(open var data: T,
                              open var left: BinaryTreeNode<T>? = null,

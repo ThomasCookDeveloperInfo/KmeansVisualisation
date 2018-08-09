@@ -1,3 +1,3 @@
-package GenericDataStructures
+package genericdatastructures
 
 data class Point(val x: Double, val y: Double)

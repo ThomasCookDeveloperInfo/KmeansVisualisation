@@ -1,12 +1,13 @@
-package GUI
+package gui
 
-import Algorithms.Kmeans
+import algorithms.Kmeans
 import javafx.animation.AnimationTimer
 import javafx.fxml.FXML
 import javafx.scene.canvas.Canvas
 import javafx.scene.layout.VBox
 import javafx.scene.paint.Color
 import javafx.scene.control.Button
+import nondeterminism.Randomness
 
 // The controller for kmeans
 class KmeansController(@FXML private var mainPane: VBox? = null,
@@ -27,7 +28,7 @@ class KmeansController(@FXML private var mainPane: VBox? = null,
             Pair(9, Color.HOTPINK))
 
     // Kmeans
-    private var kmeans = Kmeans()
+    private var kmeans = Kmeans(Randomness.randomSetOfPoints(WIDTH, HEIGHT))
 
     // Frame timer for running the kmeans algorithm and drawing result of current step
     private val frameTimer = object : AnimationTimer() {
@@ -68,7 +69,7 @@ class KmeansController(@FXML private var mainPane: VBox? = null,
         // Hook reset button up
         resetButton?.setOnMouseClicked {
             frameTimer.stop()
-            kmeans = Kmeans()
+            kmeans = Kmeans(Randomness.randomSetOfPoints(WIDTH, HEIGHT))
             frameTimer.start()
         }
 

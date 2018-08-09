@@ -1,25 +1,24 @@
-package Algorithms
+package algorithms
 
-import GUI.HEIGHT
-import GUI.WIDTH
-import GenericDataStructures.Point
-import java.util.*
+import genericdatastructures.Point
+import nondeterminism.Randomness
 
-class Kmeans {
+class Kmeans(private val dataSet: Collection<Point>,
+             private val dataSpaceWidth: Double = {
+                 val sortedByX = dataSet.sortedBy { it.x }
+                 sortedByX.last().x - sortedByX.first().x
+             }.invoke(),
+             private val dataSpaceHeight: Double = {
+                 val sortedByY = dataSet.sortedBy { it.y }
+                 sortedByY.last().y - sortedByY.first().y
+             }.invoke()) {
+
     data class Cluster(val centroid: Point, val dataPoints: MutableCollection<Point>)
 
-    private object Randomness {
-        private val rand = Random()
-        fun nextDouble() = rand.nextDouble()
-    }
-
     private val k = 10
-    private val dataSet = Array(10000) { index ->
-        Point(Randomness.nextDouble() * WIDTH, Randomness.nextDouble() * HEIGHT)
-    }.toList()
 
     private var centroids = Array(k) { _ ->
-        Point(Randomness.nextDouble() * WIDTH, Randomness.nextDouble() * HEIGHT)
+        Point(Randomness.nextDouble() * dataSpaceWidth, Randomness.nextDouble() * dataSpaceHeight)
     }.toList()
 
     private var clusters = clusterDataSet()

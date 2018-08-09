@@ -28,7 +28,7 @@ class KmeansController(@FXML private var mainPane: VBox? = null,
             Pair(9, Color.HOTPINK))
 
     // Kmeans
-    private var kmeans = Kmeans(Randomness.randomSetOfPoints(WIDTH, HEIGHT))
+    private var kmeans = Kmeans(Randomness.randomSetOfPoints(100000, WIDTH, HEIGHT))
 
     // Frame timer for running the kmeans algorithm and drawing result of current step
     private val frameTimer = object : AnimationTimer() {
@@ -69,7 +69,7 @@ class KmeansController(@FXML private var mainPane: VBox? = null,
         // Hook reset button up
         resetButton?.setOnMouseClicked {
             frameTimer.stop()
-            kmeans = Kmeans(Randomness.randomSetOfPoints(WIDTH, HEIGHT))
+            kmeans = Kmeans(Randomness.randomSetOfPoints(100000, WIDTH, HEIGHT))
             frameTimer.start()
         }
 

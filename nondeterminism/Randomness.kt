@@ -8,7 +8,7 @@ object Randomness {
 
     fun nextDouble() = rand.nextDouble()
 
-    fun randomSetOfPoints(spaceWidth: Double, spaceHeight: Double) = Array(10000) { index ->
+    fun randomSetOfPoints(size: Int, spaceWidth: Double, spaceHeight: Double) = Array(size) { index ->
         Point(nextDouble() * spaceWidth, nextDouble() * spaceHeight)
     }.toList()
 }

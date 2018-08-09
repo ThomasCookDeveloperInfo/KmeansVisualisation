@@ -4,7 +4,7 @@ import genericdatastructures.Point
 import nondeterminism.Randomness
 
 class Kmeans(private val dataSet: Collection<Point>) {
-    
+
     private val dataSpaceWidth = {
         val sortedByX = dataSet.sortedBy { it.x }
         sortedByX.last().x - sortedByX.first().x

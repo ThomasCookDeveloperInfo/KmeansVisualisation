@@ -3,15 +3,17 @@ package algorithms
 import genericdatastructures.Point
 import nondeterminism.Randomness
 
-class Kmeans(private val dataSet: Collection<Point>,
-             private val dataSpaceWidth: Double = {
-                 val sortedByX = dataSet.sortedBy { it.x }
-                 sortedByX.last().x - sortedByX.first().x
-             }.invoke(),
-             private val dataSpaceHeight: Double = {
-                 val sortedByY = dataSet.sortedBy { it.y }
-                 sortedByY.last().y - sortedByY.first().y
-             }.invoke()) {
+class Kmeans(private val dataSet: Collection<Point>) {
+    
+    private val dataSpaceWidth = {
+        val sortedByX = dataSet.sortedBy { it.x }
+        sortedByX.last().x - sortedByX.first().x
+    }.invoke()
+
+    private val dataSpaceHeight = {
+        val sortedByY = dataSet.sortedBy { it.y }
+        sortedByY.last().y - sortedByY.first().y
+    }.invoke()
 
     data class Cluster(val centroid: Point, val dataPoints: MutableCollection<Point>)
 
